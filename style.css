@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: inherit;
     font-family: Roboto, Helvetica, sans-serif;
-
 }
 
 .head {
@@ -51,15 +50,12 @@ nav {
     height: 80px;
     padding-right: 2%;
     padding-left: 9%;
-
-
 }
 
 #head2 {
     display: flex;
     margin-left: auto;
     margin-right: 10px;
-
 }
 
 #low1 {
@@ -70,9 +66,6 @@ nav {
     border-radius: 4px;
     margin-top: 1.5%;
     margin-right: 10px;
-
-
-
 }
 
 #low2 {
@@ -82,9 +75,6 @@ nav {
     padding: 2px 5px;
     border-radius: 4px 0px 0px 4px;
     margin-top: 1.5%;
-
-
-
 }
 
 #low3 {
@@ -112,7 +102,6 @@ nav {
     margin-left: 40px;
     margin-top: 30px;
     display: flex;
-
 }
 
 #low6>img {
@@ -121,7 +110,6 @@ nav {
 }
 
 #low6>i {
-
     margin-top: 8px;
 }
 
@@ -132,10 +120,39 @@ nav {
     text-align: center;
     font-family: Roboto, Helvetica, sans-serif;
     height: 48px;
-
 }
 
+#card {
+    width: 300px;
+    height: 320px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
 
+#card>#div1 {
+    width: 300px;
+    border-bottom: 1px solid lightgray;
+    height: 170px;
+}
+
+#card>#div1>img {
+    width: 300px;
+    height: 170px;
+}
+
+#card>#div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    padding-left: 20px;
+}
+
+#card>#div2>.location,
+.time {
+    color: gray;
+    font-size: small;
+}
 
 .list {
     padding: 0px 20px 0px 0px;
@@ -144,25 +161,7 @@ nav {
 
 }
 
-#img {
-    /* flex-direction: row;
-    justify-content: center;
-    display: flex;
-    padding: 100px;
-    margin top: 10px;
-    height: 150px;
-    width: 150px;
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap;
-    display: flex;
-    text-align: center;
-    margin: 40px;
-    padding-top: 10px; */
-
-}
-
 .h1 {
-
     padding-left: 10%;
     margin-top: 100px;
     margin-bottom: 20px;
@@ -191,7 +190,6 @@ nav {
 
 #imgDiv {
     display: flex;
-    /* justify-content: flex-start; */
     flex-wrap: wrap;
     width: 74%;
     margin: 0 auto;
@@ -203,4 +201,31 @@ nav {
     align-items: center;
     margin-left: 150px;
     font-weight: bold;
+}
+
+#div1>img {
+    width: 284px;
+    height: 164px;
+
+
+}
+
+#sec {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.mainSec {
+    width: 81%;
+    margin: 35px auto;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    font-family: Roboto, Helvetica, sans-serif;
 }
